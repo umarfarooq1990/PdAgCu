@@ -1,4 +1,4 @@
-name: AgPd
+name: PdAgCu
 channels:
   - anaconda
   - conda-forge
