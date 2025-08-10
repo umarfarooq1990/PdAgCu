@@ -13,7 +13,7 @@
      ```
 
 2. **Configure the Nanocluster Composition:**
-   - Edit `AgPd.py` to select the nanocluster composition.
+   - Edit `PdAgCu.py` to select the nanocluster composition.
 
    - **Monometallic Nanocluster:** For simulating a cluster of 13 atom silver (Ag):
      ```python
@@ -22,7 +22,7 @@
 
      Any monometallic atomic configuration can be achieved by specifying the chemical element `eleNames` and the number of atoms `eleNums`.
      ```
-   - **Bimetallic Nanoclusters:** For simulating a bimetallic cluster of 10 silver (Ag) and 10 palladium (Pd) atoms:
+   - **Bimetallic Nanoclusters:** For simulating a bimetallic cluster of silver (Ag) and palladium (Pd) atoms:
      ```python
      eleNames = ['Pd', 'Ag']
      eleNums = [6, 7]
@@ -30,7 +30,7 @@
      Any bimetallic atomic configuration can be achieved by specifying the chemical element `eleNames` and the number of atoms `eleNums`.
      ```
 
-   - **Trimetallic Nanoclusters:** For simulating a bimetallic cluster of 10 silver (Ag) and 10 palladium (Pd) atoms:
+   - **Trimetallic Nanoclusters:** For simulating a trimetallic cluster of palladium (Pd), silver (Ag), and copper (Cu) atoms:
      ```python
      eleNames = ['Pd', 'Ag', 'Cu']
      eleNums = [4, 4, 5]
@@ -42,7 +42,3 @@
    - Execute the script using Python. 
      ```bash
      python PdAgCu.py  
-
-
-
-    
