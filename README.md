@@ -2,7 +2,7 @@
 # Identification of Global Minima (GM) of Pd-Ag-Cu Nanoclusters via Deep Reinforcement Learning
 
 ### Accelerating the Global Minimum Search in Pd-Ag-Cu Nanoclusters Using Deep Reinforcement Learning
-[Accelerating the global minimum search in Pd-Ag-Cu nanoclusters using DRL_compressed.pdf](https://github.com/user-attachments/files/24066182/Accelerating.the.global.minimum.search.in.Pd-Ag-Cu.nanoclusters.using.DRL_compressed.pdf)
+[Accelerating the global minimum search in Pd-Ag-Cu nanoclusters using DRL.pdf](https://github.com/user-attachments/files/24066201/Accelerating.the.global.minimum.search.in.Pd-Ag-Cu.nanoclusters.using.DRL.pdf)
 
 Please cite this article as:  
 **Farooq, M. U., & Chen, F. (2025).** Accelerating the global minimum search in Pd-Ag-Cu nanoclusters using deep reinforcement learning. *Applied Surface Science*, 10, 164300. https://doi.org/10.1016/j.apsusc.2025.164300
