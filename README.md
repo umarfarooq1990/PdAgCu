@@ -18,7 +18,8 @@ Please cite this article as:
 #### 2. **Configure the Nanocluster Composition:**
    - Edit the `PdAgCu.py` file to select the desired nanocluster composition.
 
-   - **Monometallic Nanocluster:** To simulate a cluster of 13 atoms of silver (Ag), set the following configuration:
+   - **Monometallic Nanocluster:**
+   - To simulate a cluster of 13 atoms of silver (Ag), set the following configuration:
      ```python
      eleNames = ['Ag']
      eleNums = [13]
