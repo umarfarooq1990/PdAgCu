@@ -1,5 +1,5 @@
 
-# Identification of Global Minima (GM) of Pd-Ag-Cu Nanoclusters via Deep Reinforcement Learning
+# Identification of Global Minima (GM) of Pd-Ag-Cu Nanoclusters using Deep Reinforcement Learning
 
 ### Accelerating the Global Minimum Search in Pd-Ag-Cu Nanoclusters Using Deep Reinforcement Learning
 [Accelerating the global minimum search in Pd-Ag-Cu nanoclusters using DRL.pdf](https://github.com/user-attachments/files/24066201/Accelerating.the.global.minimum.search.in.Pd-Ag-Cu.nanoclusters.using.DRL.pdf)
@@ -19,7 +19,7 @@ Please cite this article as:
    - Edit the `PdAgCu.py` file to select the desired nanocluster composition.
 
    - **Monometallic Nanocluster:**
-   - To simulate a cluster of 13 atoms of silver (Ag), set the following configuration:
+     - To simulate a cluster of 13 atoms of silver (Ag), set the following configuration:
      ```python
      eleNames = ['Ag']
      eleNums = [13]
