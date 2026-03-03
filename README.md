@@ -4,10 +4,10 @@
 ### Accelerating the Global Minimum Search in Pd-Ag-Cu Nanoclusters Using Deep Reinforcement Learning
 [Accelerating the global minimum search in Pd-Ag-Cu nanoclusters using DRL.pdf](https://github.com/user-attachments/files/24066201/Accelerating.the.global.minimum.search.in.Pd-Ag-Cu.nanoclusters.using.DRL.pdf)
 
-The code is adapted from [**clusgym_drl**](https://github.com/rajeshkochi444/clusgm_drl). We thank the authors for making the code available on github. We modified the code to work with Pd-Ag-Cu nanoclusters.
-
 Please cite this article as:  
 **Farooq, M. U., & Chen, F. (2025).** Accelerating the global minimum search in Pd-Ag-Cu nanoclusters using deep reinforcement learning. *Applied Surface Science*, 10, 164300. https://doi.org/10.1016/j.apsusc.2025.164300
+
+The code is adapted from [**clusgym_drl**](https://github.com/rajeshkochi444/clusgm_drl). We thank the authors for making the code available on github. We modified the code to work with Pd-Ag-Cu nanoclusters.
 
 ### How to Run the Code
 
