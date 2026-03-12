@@ -7,7 +7,7 @@
 Please cite this article as:  
 **Farooq, M. U., & Chen, F. (2025).** Accelerating the global minimum search in Pd-Ag-Cu nanoclusters using deep reinforcement learning. *Applied Surface Science*, 10, 164300. https://doi.org/10.1016/j.apsusc.2025.164300
 
-This is an adapted version of the DRL framework from [**clusgym_drl**](https://github.com/rajeshkochi444/clusgm_drl) J. Phys. Chem. A 2024, 128, 42, 9122–9134. We thank the authors for making the code available on github. We modified the code to work with Pd-Ag-Cu nanoclusters.
+This is an adapted version of the DRL framework from [**clusgym_drl**](https://github.com/rajeshkochi444/clusgm_drl) J. Phys. Chem. A 2024, 128, 42, 9122–9134. We thank the authors for making the code available on github. However, our framework has been adapted to tackle the additional challenges that are present for nanoclusters for specific symmetries such as icosahedral symmetry and octahedral symmetry. We modified the code to work with Pd-Ag-Cu nanoclusters.
 
 ### How to Run the Code
 
