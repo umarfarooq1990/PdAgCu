@@ -7,7 +7,39 @@
 Please cite this article as:  
 **Farooq, M. U., & Chen, F. (2025).** Accelerating the global minimum search in Pd-Ag-Cu nanoclusters using deep reinforcement learning. *Applied Surface Science*, 10, 164300. https://doi.org/10.1016/j.apsusc.2025.164300
 
-This is an adapted version of the DRL framework from [**clusgym_drl**](https://github.com/rajeshkochi444/clusgm_drl) J. Phys. Chem. A 2024, 128, 42, 9122–9134. We thank the authors for making the code available on github. However, our framework has been adapted to tackle the additional challenges that are present for nanoclusters for specific symmetries such as icosahedral symmetry and octahedral symmetry. We modified the code to work with Pd-Ag-Cu nanoclusters.
+
+This is a modified and adapted version of the DRL framework from:
+
+**Exploring Nanocluster Potential Energy Surfaces via Deep Reinforcement Learning: Strategies for Global Minimum Search**<br>
+Rajesh K. Raju <br>
+ J. Phys. Chem. A 2024, 128, 9122−9134.
+ The TRPO version of DRL framework is available at https://github.com/rajeshkochi444/clusgm_drl.
+ 
+We thank the authors for making the code available on github.
+
+---
+
+## Key Modifications
+
+This framework replaced the original TRPO agent with PPO agent for faster wall-clock convergence, better sample efficiency, and correct on-policy exploration. We modified the code to work with Pd-Ag-Cu nanoclusters.
+
+---
+
+
+### PPO hyperparameters
+
+| Parameter | Default | Description |
+|---|---|---|
+| `batch_size` | `64` | Episodes collected before each policy update |
+| `learning_rate` | `3e-4` | Adam learning rate |
+| `optimization_steps` | `10` | Gradient passes per collected batch |
+| `subsampling_fraction` | `0.25` | Mini-batch fraction per optimisation step |
+| `likelihood_ratio_clipping` | `0.2` | PPO clip epsilon ε |
+| `entropy_regularization` | `0.01` | Entropy bonus for exploration |
+| `discount` | `0.99` | Reward discount factor γ |
+| `timesteps` | `200` | Maximum steps per episode |
+
+---
 
 ### How to Run the Code
 
