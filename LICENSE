@@ -1,7 +1,9 @@
 MIT License
 
-# Original Copyright (c) 2024 Rajesh Raju
-# Modifications Copyright (c) 2025 Muhammad Umar Farooq 
+Copyright (c) 2025 Muhammad Umar Farooq
+
+# Original Copyright (c) 2024 Rajesh Raju (TRPO version of DRL Framework)
+# Modifications Copyright (c) 2025 Muhammad Umar Farooq (PPO version of DRL Framework)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
