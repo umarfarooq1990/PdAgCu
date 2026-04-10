@@ -1,5 +1,5 @@
 
-# Identification of Global Minima (GM) of Pd-Ag-Cu Nanoclusters using Deep Reinforcement Learning
+# Identification of Global Minima (GM) of Pd-Ag-Cu Nanoclusters using Deep Reinforcement Learning — A Proximal Policy Optimization (PPO) DRL Framework for Global Minimum Search of nanoclusters (version 2.0)
 
 ### Accelerating the Global Minimum Search in Pd-Ag-Cu Nanoclusters Using Deep Reinforcement Learning
 [Accelerating the global minimum search in Pd-Ag-Cu nanoclusters using DRL.pdf](https://github.com/user-attachments/files/24066201/Accelerating.the.global.minimum.search.in.Pd-Ag-Cu.nanoclusters.using.DRL.pdf)
